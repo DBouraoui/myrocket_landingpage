@@ -1,0 +1,162 @@
+seo:
+  title: MyRocket – Facturation intelligente pour TPE / PME et indépendants
+  description: Créez vos devis et factures en quelques clics, automatisez vos relances et concentrez-vous sur le développement de votre activité.
+title: Facturation électronique pour PME et indépendants
+description: MyRocket est la solution de facturation intuitive pensée pour les auto-entrepreneurs, freelances et petites entreprises. Gagnez du temps, restez pro.
+hero:
+  links:
+    - label: Je décrouvre
+      icon: i-lucide-arrow-right
+      trailing: true
+      color: primary
+      to: https://ui.nuxt.com/docs/getting-started/installation/nuxt
+      target: _blank
+      size: xl
+    - label: Je m'inscris
+      icon: i-lucide-check
+      size: xl
+      color: neutral
+      variant: outline
+      to: https://github.com/nuxt-ui-templates/landing
+      target: _blank
+section:
+  title: '[Révolutionnez]{.text-primary} votre façon de facturer'
+  description: Transformez le temps passé à facturer en temps gagné pour développer votre activité.
+  images:
+    mobile: '/images/macbook-mobile.svg'
+    desktop: '/images/macbook.svg'
+  features:
+  - title: Optimisez votre productivité
+    description: Laissez notre plateforme gérer automatiquement vos rappels, devis et relances clients, pendant que vous vous concentrez sur l’essentiel.
+    class: border-l border-primary pl-4
+  - title: Suivez vos finances en temps réel
+    description: Grâce à notre tableau de bord intuitif, gardez un œil en direct sur vos revenus, vos dépenses et vos prévisions.
+    class: border-l border-default pt-4 pl-4
+  - title: Gagnez en efficacité
+    description: Centralisez vos clients et vos prestations dans une base claire et organisée. Ne perdez plus de temps ni de contacts importants.
+    class: border-l border-default pt-4 pl-4
+features:
+  title: Prenez le contrôle de votre [productivité]{.text-primary}
+  description: Découvrez tous les outils mis à votre disposition
+  features:
+    - title: Facturation simplifiée
+      description: Créez et envoyez vos devis et factures en quelques clics avec une interface intuitive et rapide.
+      icon: i-lucide-file-text
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Relances automatiques
+      description: Ne perdez plus de temps à courir après vos paiements, nos relances s’envoient automatiquement à vos clients.
+      icon: i-lucide-bell-ring
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Gestion clients et prestations
+      description: Centralisez vos contacts, suivez vos prestations et gardez toujours une vision claire de votre activité.
+      icon: i-lucide-users
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Suivi financier en temps réel
+      description: Visualisez vos recettes, vos dépenses et vos prévisions grâce à un tableau de bord simple et efficace.
+      icon: i-lucide-bar-chart
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Sécurité et conformité
+      description: Respectez les obligations légales avec des factures conformes et des données protégées.
+      icon: i-lucide-shield-check
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: Accessible partout
+      description: Accédez à votre facturation depuis votre ordinateur, tablette ou smartphone, où que vous soyez.
+      icon: i-lucide-smartphone
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+steps:
+  title: Commencez à facturer en [3 étapes]{.text-primary}
+  items:
+    - title: Inscrivez-vous sur notre plateforme
+      description: L’inscription ne prend que quelques minutes, et vous êtes prêt à démarrer.
+      image:
+        light: '/images/light/connect.svg'
+        dark: '/images/dark/connect.svg'
+
+    - title: Enregistrez vos clients et vos prestations
+      description: Centralisez vos contacts et vos services pour gagner du temps et rester organisé.
+      image:
+        light: '/images/light/optimize.svg'
+        dark: '/images/dark/optimize.svg'
+
+    - title: Créez votre facture ou devis
+      description: En quelques clics seulement, votre document est prêt à être envoyé à vos clients.
+      image:
+        light: '/images/light/track.svg'
+        dark: '/images/dark/track.svg'
+pricing:
+  title: Votre [productivité]{.text-primary}, votre choix
+  description: Choisissez le plan qui vous correspond et accédez à toutes les fonctionnalités dont vous avez besoin, à votre rythme.
+  plans:
+    - title: Gratuit
+      description: Parfait pour les auto-entrepreneurs qui émettent peu de factures.
+      price: 0 €
+      features:
+        - Création de 5 factures/devis par mois maximum
+        - Base de données clients limitée
+        - Base de données prestations limitée
+        - Tableau de bord simple
+      button:
+        label: Commencer maintenant
+        color: neutral
+        variant: outline
+        to: '#'
+    - title: Premium
+      description: Idéal pour les TPE, PME et freelances souhaitant gagner en efficacité.
+      price: 5,99 €
+      features:
+        - Création illimitée de factures et devis
+        - Base de données clients illimitée
+        - Base de données prestations illimitée
+        - Relances automatiques des factures
+        - Tableau de bord avancé
+        - Accès anticipé aux nouveautés
+      button:
+        label: Souscrire maintenant
+        variant: subtle
+        to: '#'
+
+testimonials:
+  title: Join thousands of productive [developers]{.text-primary}
+  description: See how developers are transforming their coding workflow and achieving more with our AI-powered platform.
+  items:
+    - quote: Since using this tool, my productivity has doubled. The AI insights helped me find my perfect coding rhythm and now I ship features twice as fast.
+      user:
+        name: 'Sarah Moriceau'
+        description: 'Brand Designer'
+        target: _blank
+        avatar:
+          src: 'https://ipx.nuxt.com/f_auto,s_192x192/gh_avatar/SarahM19'
+    - quote: Game-changer for our team. The focus tracking and smart alerts helped us reduce meeting interruptions by 40% and increased our sprint velocity.
+      user:
+        name: 'Sébastien Chopin'
+        description:  'Lead Software Engineer'
+        target: _blank
+        avatar:
+          src: 'https://ipx.nuxt.com/f_auto,s_192x192/gh_avatar/atinux'
+    - quote: Finally, a productivity tool that understands developers. The AI features helped me identify my peak coding hours and now I accomplish more in less time.
+      user:
+        name: 'Benjamin Canac'
+        description:  'Senior Frontend Developer'
+        target: _blank
+        avatar:
+          src: 'https://ipx.nuxt.com/f_auto,s_192x192/gh_avatar/benjamincanac'
+cta:
+  title: Prêt à simplifier votre facturation ?
+  description: Rejoignez des centaines d’entrepreneurs et TPE qui gagnent du temps avec MyRocket. Commencez dès aujourd’hui à facturer facilement.
+  links:
+    - label: Commencer maintenant
+      to: '#'
+      target: _self
+      trailingIcon: i-lucide-arrow-right
+    - label: En savoir plus
+      to: '#'
+      target: _self
+      variant: subtle
+      icon: i-lucide-info
+
