@@ -13,24 +13,11 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  css: ['~/assets/css/main.css'],
-
-  mdc: { highlight: { noApiRoute: false } },
-
-  compatibilityDate: '2025-01-15',
-
-  nitro: {
-    prerender: { routes: ['/'] },
-    routeRules: {
-      '/_well-known/*': { headers: { 'cache-control': 'public, max-age=31536000' } }
-    }
-  },
-
   // --- SEO / HEAD defaults (Unhead) ---
   app: {
     head: {
       htmlAttrs: { lang: 'fr' },
-      titleTemplate: '%s — MyRocket',
+      titleTemplate: 'MyRocket',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'format-detection', content: 'telephone=no' },
@@ -44,9 +31,21 @@ export default defineNuxtConfig({
     }
   },
 
-  image: {
-    dir: 'public/images',
-    screens: { xs: 320, sm: 640, md: 768, lg: 1024, xl: 1280 }
+  css: ['~/assets/css/main.css'],
+  site: {
+    url: 'https://myrocket.fr',
+    name: 'MyRocket – Facturation intelligente pour TPE / PME et indépendants'
+  },
+
+  mdc: { highlight: { noApiRoute: false } },
+
+  compatibilityDate: '2025-01-15',
+
+  nitro: {
+    prerender: { routes: ['/'] },
+    routeRules: {
+      '/_well-known/*': { headers: { 'cache-control': 'public, max-age=31536000' } }
+    }
   },
   // eslint custom
   eslint: {

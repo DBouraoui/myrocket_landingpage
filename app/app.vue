@@ -15,12 +15,6 @@ useHead({
     lang: 'fr'
   }
 })
-
-useSeoMeta({
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/landing-light.png',
-  twitterCard: 'summary_large_image'
-})
 </script>
 
 <template>
