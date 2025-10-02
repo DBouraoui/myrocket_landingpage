@@ -1,4 +1,3 @@
-// nuxt.config.ts
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
@@ -10,10 +9,7 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@nuxtjs/robots'
   ],
-
   devtools: { enabled: true },
-
-  // --- SEO / HEAD defaults (Unhead) ---
   app: {
     head: {
       htmlAttrs: { lang: 'fr' },
@@ -30,24 +26,20 @@ export default defineNuxtConfig({
       ]
     }
   },
-
   css: ['~/assets/css/main.css'],
   site: {
     url: 'https://myrocket.fr',
     name: 'MyRocket – Facturation intelligente pour TPE / PME et indépendants'
   },
-
   mdc: { highlight: { noApiRoute: false } },
-
   compatibilityDate: '2025-01-15',
-
   nitro: {
     prerender: { routes: ['/'] },
     routeRules: {
-      '/_well-known/*': { headers: { 'cache-control': 'public, max-age=31536000' } }
+      '/_well-known/*': { headers: { 'cache-control': 'public, max-age=31536000' } },
+      '/**': { static: true }
     }
   },
-  // eslint custom
   eslint: {
     config: {
       stylistic: { commaDangle: 'never', braceStyle: '1tbs' }
